@@ -13,7 +13,7 @@ class BaseConfig:
 
 
 class DevelopmentConfig(BaseConfig):
-  SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@127.0.0.1:3306/pythonbbs?charset=utf8mb4"
+  SQLALCHEMY_DATABASE_URI = "mysql+pymysql://pythonbbs:123456@127.0.0.1:3306/pythonbbs?charset=utf8mb4"
 
   # 邮箱配置
   MAIL_SERVER = "smtp.163.com"
